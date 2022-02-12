@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "stylelint-config-prettier"
+  ],
+  "plugins": [
+    "stylelint-prettier"
+  ],
+  "rules": {
+    "prettier/prettier": true,
+    "block-no-empty": true,
+    "color-no-invalid-hex": true,
+    "comment-no-empty": true,
+    "declaration-block-no-duplicate-properties": true,
+    "max-empty-lines": 2
+  }
+}
